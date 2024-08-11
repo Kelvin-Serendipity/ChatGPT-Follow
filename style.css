@@ -1,0 +1,275 @@
+#top-left {
+    display: flex;
+}
+
+.icon-logo {
+    height: 30px;
+    width: 39px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 2px;
+    height: 40px;
+    width: 40px;
+}
+
+.icon:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    border-radius: 7px;
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    color: #7b7b7b;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-right {
+    display: flex;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 30px;
+    height: 32px;
+    width: 53px;
+    margin-right: 7px;
+}
+
+.login:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 2px 8px rgb(189, 189, 189);
+    transition: background-color 0.3s, box-shadow 0.5s;
+    cursor: pointer;
+}
+
+.login-p {
+    font-size: 14px;
+    color: white;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    height: 30px;
+    width: 53px;
+}
+
+.register:hover {
+    background-color: rgba(239, 239, 239, 0.9);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.register-p {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.centrol-logo {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    height: 93%;
+    width: 93%;
+    object-fit: contain;
+}
+
+.bottom-bottom {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.propose-top {
+    display: flex;
+    justify-content: center;
+}
+
+.propose-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.propose-top-left {
+    height: 65px;
+    width: 350px;
+    /* box-shadow: 0 1px 10px #e5e5e5; */
+    border-radius: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.propose-top-left:hover {
+    background-color: #f8f8f8;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.propose-top-right {
+    margin-left: 8px;
+    margin-bottom: 7px;
+    height: 65px;
+    width: 350px;
+    /* box-shadow: 0 1px 10px #e5e5e5; */
+    border-radius: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.propose-top-right:hover {
+    background-color: #f8f8f8;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.propose-bottom-left {
+    height: 65px;
+    width: 350px;
+    /* box-shadow: 0 1px 10px #e5e5e5; */
+    border-radius: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.propose-bottom-left:hover {
+    background-color: #f8f8f8;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.propose-bottom-right {
+    margin-left: 8px;
+    margin-bottom: 7px;
+    height: 65px;
+    width: 350px;
+    /* box-shadow: 0 1px 10px #e5e5e5; */
+    border-radius: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.propose-bottom-right:hover {
+    background-color: #f8f8f8;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.propose-title {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 10px 0 2px 18px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.propose-text {
+    margin: 0px 0 3px 18px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.icon-2xl {
+    color: rgb(245, 245, 245);
+}
+
+.bar-input {
+    position: relative;
+    display: flex;
+    height: 43px;
+    width: 715px;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+.input::placeholder {
+    color: #bbbbbb;
+    font-weight: 350;
+}
+
+
+.input {
+    height: 48px;
+    width: 100%;
+    font-size: 17px;
+    border: none;
+    background-color: #f0f0f0;
+    outline: none;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 10px 50px 10px 20px;
+}
+
+.bar-button {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+
+.bottom-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-text-p {
+    font-size: 11px;
+    color: #636363;
+}
+
+/* .input:not(:placeholder-shown) 选择的是那些已经输入了文本、占位符文本不再显示的 <input> 元素。 */
+.input:not(:placeholder-shown) + .bar-button {
+    background-color: black;
+    transition: background-color 0.3s;
+}
